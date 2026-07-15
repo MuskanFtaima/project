@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Resturant</title>
-    <link rel='stylesheet' href='style.css'>
+    <title>Semantic HTML</title>
 </head>
-<body>
-    <header> 
-    <h1>The Sizzling Spoon </h1>
-    <p>Explore Our delicious Menu</p>
-    <img src="https://logowik.com/content/uploads/images/chef-restaurant5078.logowik.com.webp" class="logo"> 
+<body style="margin:0; font-family:Arial;">
+
+    <header style="background:rgb(76, 175, 80); color:white; padding:20px; text-align:center;">
+        <h1>My Website</h1>
     </header>
-    <table>
 
-    <tr>
-        <th>Item No.</th>
-        <th>Food Item</th>
-        <th>Category</th>
-        <th>Price (Rs.)</th>
-    </tr>
+    <nav style="background:rgb(51, 51, 51); padding:15px; text-align:center;">
+        <a href="#" style="color:white; margin:15px; text-decoration:none;">Home</a>
+        <a href="#" style="color:white; margin:15px; text-decoration:none;">About</a>
+        <a href="#" style="color:white; margin:15px; text-decoration:none;">Services</a>
+        <a href="#" style="color:white; margin:15px; text-decoration:none;">Contact</a>
+    </nav>
 
-    <tr>
-        <td>1</td>
-        <td>Chicken Biryani</td>
-        <td>Main Course</td>
-        <td>350</td>
-    </tr>
+    <section style="display:flex; padding:20px;">
 
-    <tr>
-        <td>2</td>
-        <td>Chicken Karahi</td>
-        <td>Main Course</td>
-        <td>1200</td>
-    </tr>
+        <article style=" background:rgb(244, 244, 244); padding:20px;">
+            <h2>Article</h2>
+            <p>This is the main content of the webpage. It contains usefulinformation for visitors.</p>
 
-    <tr>
-        <td>3</td>
-        <td>Zinger Burger</td>
-        <td>Fast Food</td>
-        <td>450</td>
-    </tr>
+            <details style="margin-top:15px;">
+                <summary>Read More</summary>
+                <p>This is additional information hidden inside the details tag.</p>
+            </details>
+        </article>
 
-</table>
+        <aside style="background:rgb(221, 221, 221); padding:20px;">
+            <h3>Sidebar</h3>
+            <p>Latest News</p>
+            <p>Popular Posts</p>
+        </aside>
+
+    </section>
+
+    <footer style="background:rgb(34, 34, 34); color:white; text-align:center; padding:15px;">
+        <p>2026 My Website </p>
+    </footer>
+    <form action="">
+        <label for="fname">first name:</label> <br>
+        <input type="text" id="fname" name="fname" value="Muskan" 
+         style="width:20%; padding:10px; margin-bottom:15px; border:1px solid gray; "><br>
+        <label for="lname">last name:</label><br>
+        <input type="text" id="lname" name="lnmae" value="Fatima"
+        style="width:20%; padding:10px; margin-bottom:15px; border:1px solid gray; "><br>
+        <label for="email">email</label><br>
+        <input type="email" id="email" name="email"
+        style="width:20%; padding:10px; margin-bottom:15px; border:1px solid gray; "><br>
+        <label for="password">password</label><br>
+        <input type="password" placeholder="enter your password"
+        style="width:20%; padding:10px; margin-bottom:15px; border:1px solid gray; "><br><br>
+        <input type="submit" value="submit" style="width: 10%; padding: 5px;">
+        <input type="reset" value="reset" style="width: 10%; padding: 5px;">
+
+
+
+
+
+    </form>
 
 </body>
 </html>
