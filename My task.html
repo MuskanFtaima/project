@@ -7,14 +7,14 @@
       <link rel="icon" type="image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEC2tKBM33-pSjNGrK5Q6cLATXGx7fMyNHjxKt5vfDaA&s=10">
 
     <link rel='stylesheet' href='main.css'>
-</head>
-<style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
 .abc{
 background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJucG7KRhGNm88zhUhPhyec9v7KwJxtWGgq6Iuiy_rg&s=10");
 background-repeat:no-repeat;
 background-size:cover;
 background-position: center;
-opacity: 0.9;
+opacity: 0.5;
 }
    
 nav a:hover{
@@ -30,16 +30,33 @@ button:hover{
     text-decoration: underline;
 }
 .pic{
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 .ab{
     height: 50px;
     width: 50px;
     border-radius:  50%; 
-    background-color: rgb(182, 175, 175);
     padding: 5px;
-    border: 2px solid white;
+   background-color: rgb(142, 136, 136);
+   object-fit: cover;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(18, 161, 218);
+    border-radius:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.king{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
 }
            
 </style>
@@ -59,52 +76,58 @@ button:hover{
             <a href="#" style=" text-decoration:none;color:black; margin-right:20px;background-color: rgb(15, 225, 225); padding: 5px 5px;"> Blog</a>
             <a href="#" style="text-decoration:none;color:black; margin-right:20px;;"> Search</a>
         </nav>
+        <div> <a href="#" style="text-decoration:none;color:black; margin-right:20px;;"> Search</a></div>
     </header>
     <div style="  text-align:center;padding:  70px;background-color:rgb(125, 170,191 )" class="abc">
         <h1>GOOD DESIGN IS GOOD BUSINESS</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellat dolores excepturi reprehenderit quam distinctio ratione voluptates voluptatibus inventore iste sequi tempora labore, ex cumque perferendis temporibus eum assumenda velit?</p>
 <button style="background-color:rgb(140, 97, 139) ; padding:10px 40px;" class="button"> LEARN MORE</button>
     </div>
-
-    <span style=" display: flex; text-align:center;color:  rgb(140, 97, 139);padding: 6px 18px;">OUR SERVICE </span>
-    
-<div style="float: left;  width: 25%;text-align: center;">
+<div style="text-align: center;">
+    <span style="background-color:rgb(164, 159, 164) ; color: white; width: 10%;  padding:8px 18px ;">OUR SERVICE </span>
+</div>
+<div style=" display: flex; justify-content: center; align-items: center;">
+<div  class="king">
+    <i class="fa-solid fa-laptop  icon" ></i>
     <h3>Web Design</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
 </div>
-<div style="float: left; width: 25%;text-align: center;">
+<div class="king">
+    <i class="fa-solid fa-magnifying-glass  icon"></i>
     <h3>Search Optimization</h3>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
 </div>
-<div style="float: left; width: 25%;text-align: center;">
+<div  class="king">
+    <i class="fa-solid fa-cart-arrow-down icon"></i>
     <h3 >Online Shop</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 </div>
-    <div style="float: left; width: 25%;text-align: center;">
+    <div class="king">
+        <i class="fa-solid fa-thumbs-up icon"></i>
     <h3>Social Media</h3>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
     </div>
-
-   <br><br><br><br><br><br>
+</div>
+   
 <div style=" display: flex; justify-content: space-between ;padding:70px; background-color:rgb(125, 170, 191); ">
     <h2>Our Portfolio Awesome</h2>
     <button style="background-color:rgb(140, 97, 139);padding:10px 20px;">
             More Works
         </button>
 </div>
-<div style="display:flex; justify-content:space-between; background-color:rgb(125,170,191); padding:2opx";>
+<div style="  justify-content: center; align-items: center;    display:flex;  ">
 
-    <div style="width:30%; text-align:center;">
+    <div style=" text-align:center;">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpxLLBxJUdCM-iCvLETBnSXKXRtjjUoDA82GC2XM5OQ&s=10" class="pic">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet </p>
     </div>
 
-    <div style="width:30%; text-align:center;">
+    <div style=" text-align:center;">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRYCvQg50YEuTkqU--Byew-50e7wXJisYiBtKusbf0AQ&s=10" class="pic">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 
-    <div style="width:30%; text-align:center;">
+    <div style=" text-align:center;">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrC_Ks-lEUuoQQeZEPHa6L5RSa-p3L0W8qdj56kR_2Q&s=10" class="pic">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
